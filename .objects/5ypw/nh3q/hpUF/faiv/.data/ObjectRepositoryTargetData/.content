@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hLY2kCPBGku5pN_EeXZfWg" Reference="siSv9jOe7EmTNr__hpRlEA/faivaz_G2ESYYuRjSo5g7A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallengeocr.azurewebsites.net" DesignTimeRectangle="1481, 742, 132, 39" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;wnd title='&amp;amp;Abrir' /&gt;" FuzzySelectorArgument="&lt;wnd title='&amp;amp;Abrir' check:text='&amp;amp;Abrir' /&gt;" Guid="88497b7a-6cfd-4fbb-8e57-2ab92cb4d922" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1ed7f8b559025c32cd4cf5183c0b6fbe.png" xmlns="">0y30agTdHzUySpH4uV6qnxA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

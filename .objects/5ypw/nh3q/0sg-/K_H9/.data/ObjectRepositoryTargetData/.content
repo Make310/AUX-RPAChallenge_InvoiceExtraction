@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Msp9vxBPdUmk1rTjwfL5NA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallengeocr.azurewebsites.net/invoices/12.jpg" CVScreenId="0fff9dd3-4ec9-4825-ba3a-bcc07c6e74ae" CvTextArea="725, 266, 98, 16" CvTextArgument="Aenean LLC" CvType="Text" DesignTimeRectangle="725, 265, 98, 16" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="649515f9-d4e1-4565-95e7-a1fc3260fc02" ScopeSelectorArgument="&lt;html app='chrome.exe' title='12.jpg (793×1122)' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="af02110fdf56c80af029dcd1e8f5684f.png" xmlns="">01gmxH6qt-029TMaG9upm-A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

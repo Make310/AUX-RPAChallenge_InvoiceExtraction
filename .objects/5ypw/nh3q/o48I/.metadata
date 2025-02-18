@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome 12.jpg (793×1122)",
+  "Type": "Screen",
+  "Id": "o48IOtv08kWKq0Hf1b621g",
+  "Reference": "siSv9jOe7EmTNr__hpRlEA/o48IOtv08kWKq0Hf1b621g",
+  "ParentRef": "siSv9jOe7EmTNr__hpRlEA/nh3qZ1mm2k6brZK3fhfcXw",
+  "Created": "2025-02-18T20:00:58.5864659Z",
+  "Updated": "2025-02-18T20:00:58.5864659Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

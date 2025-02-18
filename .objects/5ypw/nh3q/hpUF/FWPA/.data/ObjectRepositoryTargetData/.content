@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uATAt2eMZkyGHJYE33lcdQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallengeocr.azurewebsites.net" DesignTimeRectangle="365, 705, 1069, 25" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Nombre de archivo:' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Nombre de archivo:' role='editable text' automationid='' /&gt;" Guid="41891ddd-ae5b-4584-8d52-8aa80fb25527" ScopeSelectorArgument="&lt;wnd app='chrome.exe' title='Abrir' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9220beb505f9699c42857a94cebabbfc.png" xmlns="">0XOaB1ul0wkavbtQ27Ivbwg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
