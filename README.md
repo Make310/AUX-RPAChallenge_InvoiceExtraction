@@ -19,9 +19,9 @@ The extracted data is validated and stored in a structured format for further pr
 - **`InitAllSettings.xaml`** → Loads configuration data from `Config.xlsx`.
 - **`InitAllApplications.xaml`** → Opens and prepares the browser or file system.
 - **`I-1.RPAChallenge_OpenBrowser.xaml`** → Opens the invoice portal.
-- **`I-2.RPAChallenge_ClickStart.xaml`** → Starts the extraction process.
-- **`I-3.RPAChallenge_ExtractData.xaml`** → Extracts invoice details.
-- **`I-4.RPAChallenge_VerifyFile`** → Filters invoices based on due date.
+- **`I-2.RPAChallenge_DownloadExcel`** → Download the result example file.
+- **`I-3.RPAChallenge_ClickStart.xaml`** → Starts the extraction process.
+- **`I-4.RPAChallenge_ExtractData.xaml`** → Extracts invoice details.
 
 ### **2️⃣ Get Transaction Data (`GetTransactionData`)**
 - **Fetches each invoice row** as a transaction for processing.

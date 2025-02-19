@@ -104,10 +104,11 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="G_2_RPAChallenge_UploadCsv" sap:VirtualizedContainerService.HintSize="1934.6666666666667,1287" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Upload the result file to the challenge rpa website" DisplayName="G_1.RPAChallenge_UploadCsv" sap:VirtualizedContainerService.HintSize="1934.6666666666667,1313" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log Message - Start WorkFlow" sap:VirtualizedContainerService.HintSize="484,57" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;[START] Executing workflow: G-1.RPAChallenge_UploadCsv&quot;]">
@@ -118,13 +119,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <uix:NApplicationCard sap2010:Annotation.AnnotationText="Attaches to an existing RPA Challenge browser session instead of opening a new one. &#xA;This ensures that the automation interacts with the correct browser window where the challenge is running." AttachMode="ByInstance" CloseMode="Never" DisplayName="Attach to RPA Challenge Website - Upload" sap:VirtualizedContainerService.HintSize="484,1159" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="b97c7082-2165-461c-b8d3-12107904c331" Version="V2">
+    <uix:NApplicationCard sap2010:Annotation.AnnotationText="Attaches to an existing RPA Challenge browser session instead of opening a new one. &#xA;This ensures that the automation interacts with the correct browser window where the challenge is running." AttachMode="ByInstance" CloseMode="Never" DisplayName="Attach to RPA Challenge Website - Upload" sap:VirtualizedContainerService.HintSize="484,1154" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="b97c7082-2165-461c-b8d3-12107904c331" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,838" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do-  Upload File" sap:VirtualizedContainerService.HintSize="450,833" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -150,7 +151,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into - Path" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="b97c7082-2165-461c-b8d3-12107904c331" Text="[Environment.CurrentDirectory + &quot;\&quot; + in_TargetFolder + &quot;challenge.csv&quot;]" Version="V4">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into - Path" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="b97c7082-2165-461c-b8d3-12107904c331" Text="[Environment.CurrentDirectory + &quot;\&quot; + in_TargetFolder + &quot;example.csv&quot;]" Version="V4">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="rpachallengeocr.azurewebsites.net" ContentHash="uATAt2eMZkyGHJYE33lcdQ" DesignTimeRectangle="365, 705, 1069, 25" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Nombre de archivo:' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Nombre de archivo:' role='editable text' automationid='' /&gt;" Guid="41891ddd-ae5b-4584-8d52-8aa80fb25527" InformativeScreenshot="9220beb505f9699c42857a94cebabbfc.png" Reference="siSv9jOe7EmTNr__hpRlEA/FWPAOOQfN0qnOemg_O8KJw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' title='Abrir' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive" />
               </uix:NTypeInto.Target>
@@ -165,7 +166,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click - Open" sap:VirtualizedContainerService.HintSize="416,222.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b97c7082-2165-461c-b8d3-12107904c331" Version="V4">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click - Open" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b97c7082-2165-461c-b8d3-12107904c331" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="rpachallengeocr.azurewebsites.net" ContentHash="hLY2kCPBGku5pN_EeXZfWg" DesignTimeRectangle="1481, 742, 132, 39" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;wnd title='&amp;amp;Abrir' /&gt;" FuzzySelectorArgument="&lt;wnd title='&amp;amp;Abrir' check:text='&amp;amp;Abrir' /&gt;" Guid="88497b7a-6cfd-4fbb-8e57-2ab92cb4d922" ImageBase64="" InformativeScreenshot="1ed7f8b559025c32cd4cf5183c0b6fbe.png" Reference="siSv9jOe7EmTNr__hpRlEA/faivaz_G2ESYYuRjSo5g7A" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive" />
               </uix:NClick.Target>
